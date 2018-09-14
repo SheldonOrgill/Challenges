@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <head>
+    <meta charset="utf-8">
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="css/formavalidation.css" type="text/css">
+  </head>
+  <body align="center">
+    <h1>Registration Form</h1>
+
+    <form class="register" action="index.html" method="post">
+      <table align="center" border="0">
+        <tr>
+          <td><label>UserID</label></td>
+          <td><input type="text" placeholder="**********" minlength="5" maxlength="12" required></td>
+        </tr>
+        <tr>
+          <td><label>Password</label></td>
+          <td><input type="password" minlength="7" maxlength="12" placeholder="************" required></td>
+        </tr>
+        <tr>
+          <td><label>Full Name</label></td>
+          <td><input type="text" placeholder="Full Name" required></td>
+        </tr>
+        <tr>
+          <td><label>Address</label></td>
+          <td><input type="text" placeholder="Enter Address Here" optional></td>
+        </tr>
+        <tr>
+          <td><label>Country</label></td>
+          <td><select>
+            <option value="PS" disabled selected>(Please select a country)</option>
+            <option value="South Africa" required>South Africa</option>
+            <option value="Paris">Paris</option>
+            <option value="England">England</option></td>
+          </select>
+        </tr>
+        <tr>
+          <td><label>Zip Code</label></td>
+          <td><input type="number" name="zip" value="zipcode" min="1000" max="9999" required></td>
+        </tr>
+        <tr>
+          <td><label>Email</label></td>
+          <td><input type="email" placeholder="Example@gmail.com" required></td>
+        </tr>
+
+        <tr>
+          <td><label>Sex</label></td>
+          <td><input type="radio" name="Sex" value="Male" required>Male
+            <input type="radio" name="Sex" value="Female">Female</td>
+          </tr>
+
+          <tr>
+            <td><label>Language</label></td>
+            <td><input type="checkbox" name="language" value="english" required checked>English
+              <input type="checkbox" name="language" value="non_english">Non-English</td>
+            </tr>
+            <tr>
+              <td><label>About:</label></td>
+              <td><textarea name="about" rows="10" cols="30" optional placeholder="Optional"></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><input type="submit" value="Send!"></td>
+            </tr>
+            <tr>
+              <td colspan="2"></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><button type="reset">Try Again</button></td>
+            </tr>
+          </table>
+        </form>
+      </body>
+      </html>
