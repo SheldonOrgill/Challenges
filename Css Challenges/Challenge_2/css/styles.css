@@ -1,0 +1,113 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:lightgrey;
+  font-size:14px;
+  color:black;
+  margin: 5px auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 40px
+}
+
+/* Layout */
+/* Fontstyling */
+header{
+  font-family: 'Indie Flower', cursive;
+}
+h1,h2{
+  color:red;
+  letter-spacing: 15px;
+  border: solid black;
+  width: 90%
+}
+/* Styling of heading 2 */
+h2{
+  font-family: 'Permanent Marker', cursive;
+}
+/* Image on page */
+.tomorrow{
+  position: absolute;
+  width: 35%;
+  height: 50%;
+  top: 880px;
+  right: 150px
+
+}
+/* paragraphs */
+p{
+  font-family: 'Coiny', cursive;
+
+}
+/* Footer */
+p1{
+  color: black;
+}
+section {
+  line-height: 40px;
+  float: left;
+  width: 50%;
+}
+li{
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+}
+/* heading changes from center top left margin */
+.heading1{
+
+  width: 100%;
+}
+.heading1:hover {
+  /* height: 70%; */
+  width: 90%;
+}
+
+:focus{
+  outline:none;
+  color:#000;
+  text-decoration: none;
+}
+a[href*="http"] {
+  background: url(../images/link.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+a:hover {
+  color: orange;
+}
+a:hover{
+  text-decoration: none;
+}
+aside {
+  float: right;
+  width: 38%;
+}
+
+.h {
+  color:#D8572A;
+  /* display: inline-block;  */
+  width: 15%;
+}
+.Top:hover{
+background-color: green;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+}

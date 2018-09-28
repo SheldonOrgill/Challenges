@@ -1,0 +1,49 @@
+body {
+  background-color: lightgray;
+  background-image: url(../images/hero1.png);
+  background-blend-mode: overlay;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+/* width: 150px; height: 150px; */
+}
+
+h1{
+  background-color: blue;
+  width: 250px;
+  color:#00ff33;
+}
+h2{
+background-color: blue;
+width: 130px;
+color:#00ff33;
+}
+
+h3{
+  background-color: blue;
+  width: 100px;
+  color:#00ff33;
+}
+h4{
+  background-color: blue;
+  width: 150px;
+  color:#00ff33;
+}
+p{
+  font-family: fantasy;
+}
+p:nth-of-type(1){
+  color: dodgerblue;
+}
+p:nth-of-type(2){
+color: dodgerblue;
+}
+p:nth-of-type(3){
+color: dodgerblue;
+}
+p:nth-of-type(4){
+color: dodgerblue;
+}
+p:nth-of-type(5){
+color: dodgerblue;
+}
